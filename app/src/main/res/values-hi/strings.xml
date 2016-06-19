@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- For Translation-->
+
+    <string name="PSyncEnable">psync सॉफ्टवेयर को चालू करें.</string>
+    <string name="ViewMap">नक्शा देखें</string>
+    <string name="StartDisarmConnect">दिसरम से जुड़ गए</string>
+    <string name="StopDisarmConnect">दिसरम बंद हो गया</string>
+
+
+
+    <string-array name="health_array">
+        <item>बुखार</item>
+        <item>टायफ़ायड</item>
+        <item>पीलिया</item>
+        <item>पेट खराब</item>
+        <item>त्वचा संक्रमण</item>
+        <item>चेचक</item>
+        <item>सामान्य जुखाम</item>
+        <item>दस्त</item>
+    </string-array>
+
+    <string-array name="food_array">
+        <item>चावल</item>
+        <item>गेहूँ</item>
+        <item>दाल</item>
+        <item>मक्का</item>
+        <item>पानी</item>
+    </string-array>
+    <string-array name="victim_array">
+        <item> प्रभावित लोगो का अनुमान</item>
+        <item>5 वर्ष से कम प्रभावित बच्चे</item>
+        <item> प्रभावित गर्भवती महिलाएं</item>
+        <item>स्तनपान कराने वाली प्रभावित मातायें</item>
+        <item>मृत</item>
+        <item>घायल</item>
+        <item>लापता</item>
+        <item>बेघर</item>
+        <item>विस्थापित</item>
+        <item>खाली</item>
+        <item>अनाथ</item>
+        <item>निराश्रित</item>
+        <item>मातहत लोग</item>
+    </string-array>
+    <string-array name="shelter_array">
+        <item> विस्थापित कहाँ व्यक्ति शरण ले रहे हैं</item>
+        <item>अस्थायी आश्रय की उपलब्धता</item>
+        <item>घर के निर्माण सामग्री की उपलब्धता</item>
+        <item>स्थानीय प्रशासन से समर्थन</item>
+    </string-array>
+    <string-array name="num_array">
+        <item>१</item>
+        <item>२</item>
+        <item>३</item>
+        <item>५</item>
+        <item>१०</item>
+        <item>इसके अलावा</item>
+
+    </string-array>
+
+
+</resources>

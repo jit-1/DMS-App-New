@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('disarmlibrary-release-1.0.1.aar'))

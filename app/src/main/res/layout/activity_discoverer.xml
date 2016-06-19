@@ -1,0 +1,75 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Sync"
+        android:id="@+id/btn_start_sync"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listen"
+        android:id="@+id/btn_listen"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_stop_sync"
+        android:layout_alignEnd="@+id/btn_listen"
+        android:weightSum="100"
+        android:orientation="vertical"
+        >
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@android:id/list"
+            android:layout_weight="50"
+             />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:layout_weight="50"
+             />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Listening"
+        android:id="@+id/btn_stop_listener"
+        android:layout_below="@+id/btn_listen"
+        android:layout_alignEnd="@+id/btn_listen" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Sync"
+        android:id="@+id/btn_stop_sync"
+        android:layout_below="@+id/btn_start_sync"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get File"
+        android:id="@+id/btn_get_file"
+        android:layout_alignBottom="@+id/btn_start_sync"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

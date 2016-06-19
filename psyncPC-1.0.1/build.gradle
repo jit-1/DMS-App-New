@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('psyncPC-1.0.1.jar'))

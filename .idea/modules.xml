@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TabbedView.iml" filepath="$PROJECT_DIR$/TabbedView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/disarmlibrary-release/disarmlibrary-release.iml" filepath="$PROJECT_DIR$/disarmlibrary-release/disarmlibrary-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/disarmlibrary-release-1.0.1/disarmlibrary-release-1.0.1.iml" filepath="$PROJECT_DIR$/disarmlibrary-release-1.0.1/disarmlibrary-release-1.0.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/psyncPC-1.0.1/psyncPC-1.0.1.iml" filepath="$PROJECT_DIR$/psyncPC-1.0.1/psyncPC-1.0.1.iml" />
+    </modules>
+  </component>
+</project>
